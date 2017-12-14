@@ -1,0 +1,33 @@
+body {
+padding-top: 65px;
+}
+.nav-fixed {
+position: fixed;
+right: 0;
+left: 0;
+top: 0;
+margin-bottom: 0px;
+z-index: 997;
+  }
+
+  
+.dropdown-content {
+  background-color: #FFFFFF;
+  margin: 0;
+  display: none;
+  min-width: 300px; /* Changed this to accomodate content width */
+  max-height: auto;
+  margin-left: -1px; /* Add this to keep dropdown in line with edge of navbar */
+  overflow: hidden; /* Changed this from overflow-y:auto; to overflow:hidden; */
+  opacity: 0;
+  position: absolute;
+  white-space: nowrap;
+  z-index: 1;
+  will-change: width, height;
+}
+ul > li > .item-product{
+  /*background-color: red;*/
+}
+.item-product:hover{
+  background-color: #cfd8dc;
+}
